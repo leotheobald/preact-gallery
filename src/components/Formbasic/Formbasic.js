@@ -1,4 +1,5 @@
 import { Component, h } from 'preact';
+import styles from '../../styles/themeStyle.scss';
 import classNames from 'classnames/bind';
 //const cx = classNames.bind(styles);
 
