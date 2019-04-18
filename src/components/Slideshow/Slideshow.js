@@ -1,7 +1,7 @@
 import { Component, h } from 'preact';
 import styles from '../../styles/themeStyle.scss';
 import classNames from 'classnames/bind';
-import Slide from '../Slide';
+import Slide from './Slide';
 
 const cx = classNames.bind(styles);
 
@@ -16,6 +16,7 @@ class Slideshow extends Component {
     slides: [],
     content: this.props.content,
     title: this.props.content.title,
+    cat: this.props.content.category,
     explanation: this.props.content.explanation,
     speed: this.props.cycleSpeed || 3000,
     timer: null

@@ -1,7 +1,7 @@
 import { Component, h } from 'preact';
 import styles from '../../styles/themeStyle.scss';
-import classNames from 'classnames/bind';
-//const cx = classNames.bind(styles);
+// import classNames from 'classnames/bind';
+// const cx = classNames.bind(styles);
 
 import linkstate from 'linkstate';
 
@@ -25,10 +25,15 @@ class Formbasic extends Component {
       return <div>Loading...</div>;
     }
 
-    return (
-      <div>
-        <h1> hello World </h1>
+    // const generateList = (
+    //   cat.map((slide, i) => (
+    //       <sec content={slide} current={this.isActive(i)} key={i} />
+    //     )
+    //   )
+    // )
 
+    return (
+      <div class="basicform">
         <div>
           <h3>First Name</h3>
           {/* // linkstate updates `state.firstName` every time the user types in
@@ -38,6 +43,17 @@ class Formbasic extends Component {
         <div>
           <h3>Last Name</h3>
           <input type="text" value={state.lastName} onInput={linkstate(this, 'lastName')} />
+        </div>
+
+        <div>
+          
+          <select name="choice">
+            <option value="books">Books</option>
+            <option value="html">HTML</option>
+            <option value="css" onChange={this.save()}>CSS</option>
+            <option value="php">PHP</option>
+            <option value="js">JavaScript</option>
+          </select>
         </div>
 
         <div>

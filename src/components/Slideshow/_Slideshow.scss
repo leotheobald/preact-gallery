@@ -1,21 +1,15 @@
 /* Slideshow styling ----- */
 .slideshow {
   margin-top: 50px;
+
   p {
-      margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
 .slideshow__container {
   overflow: hidden;
   position: relative;
-  
   padding-top: calc(9 / 16 * 100%);
-  
-  // min-width: 400px;
-  // width: 50vw;
-  // height: 0;
-  
-  background-color: rgba(0, 0, 0, 0.5);
+  //background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
-

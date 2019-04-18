@@ -1,8 +1,8 @@
 {"slides":[
-    {"id":"0","date":"2019","title":"Test 01","explanation":"some explanation here...","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/stanley-dai-197917.jpg","copyright":"me"},
-    {"id":"1","date":"2019","title":"Test 02","explanation":"some explanation here...","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/ishan-seefromthesky-118581.jpg","copyright":"me"},
-    {"id":"2","date":"2019","title":"Test 03","explanation":"some explanation here...","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/austin-neill-159603.jpg","copyright":"me"},
-    {"id":"3","date":"2019","title":"Test 04","explanation":"some explanation here...","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/ales-krivec-14570.jpg","copyright":"me"},
-    {"id":"4","date":"2019","title":"Test 05","explanation":"some explanation here...","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/felix-russell-saw-188381.jpg","copyright":"me"}
+    {"id":"0","date":"2019","title":"Test 01","explanation":"some explanation here...","category":"wilds","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/stanley-dai-197917.jpg","copyright":"me"},
+    {"id":"1","date":"2019","title":"Test 02","explanation":"some explanation here...","category":"test","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/ishan-seefromthesky-118581.jpg","copyright":"me"},
+    {"id":"2","date":"2019","title":"Test 03","explanation":"some explanation here...","category":"test","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/austin-neill-159603.jpg","copyright":"me"},
+    {"id":"3","date":"2019","title":"Test 04","explanation":"some explanation here...","category":"wilds","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/ales-krivec-14570.jpg","copyright":"me"},
+    {"id":"4","date":"2019","title":"Test 05","explanation":"some explanation here...","category":"wilds","url":"https://s3-us-west-2.amazonaws.com/s.cdpn.io/4723/felix-russell-saw-188381.jpg","copyright":"me"}
   ]}
   
