@@ -2,8 +2,9 @@ import { h, Component } from 'preact';
 
 import styles from './_ViewerTemplate.scss';
 import classNames from 'classnames/bind';
-
 const cx = classNames.bind(styles);
+
+/** @jsx h */
 
 const ViewerTemplate = ({ viewer, NavPrevNext, HeaderTitle, explanation }) => {
   return (

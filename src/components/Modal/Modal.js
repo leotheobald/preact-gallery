@@ -1,7 +1,10 @@
 import { render, Component, h } from 'preact';
+
 import styles from '../../styles/themeStyle.scss';
 // import classNames from 'classnames/bind';
 // const cx = classNames.bind(styles);
+
+/** @jsx h */
 
 class Modal extends Component {
   render() {
@@ -48,11 +51,11 @@ class Modal extends Component {
 
     return (
       <div className={this.props.containerClassName}>
-        <div className={this.props.className} style={modalStyle}>
+        <div className={this.props.className}>
           {this.props.children}
         </div>
         {!this.props.noBackdrop &&
-        <div className={this.props.backdropClassName} style={backdropStyle}
+        <div className={this.props.backdropClassName}
           onClick={e => this.close(e)}/>}
       </div>
     )  

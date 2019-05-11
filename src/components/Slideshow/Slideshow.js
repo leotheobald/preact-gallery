@@ -1,8 +1,8 @@
 import { Component, h } from 'preact';
-import styles from '../../styles/themeStyle.scss';
-import classNames from 'classnames/bind';
 import Slide from './Slide';
 
+import styles from '../../styles/themeStyle.scss';
+import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 /** @jsx h */

@@ -1,9 +1,11 @@
 import { Component, h } from 'preact';
+import linkstate from 'linkstate';
+
 import styles from '../../styles/themeStyle.scss';
 // import classNames from 'classnames/bind';
 // const cx = classNames.bind(styles);
 
-import linkstate from 'linkstate';
+/** @jsx h */
 
 class Formbasic extends Component {
 
@@ -24,13 +26,6 @@ class Formbasic extends Component {
     if (state.loading) {
       return <div>Loading...</div>;
     }
-
-    // const generateList = (
-    //   cat.map((slide, i) => (
-    //       <sec content={slide} current={this.isActive(i)} key={i} />
-    //     )
-    //   )
-    // )
 
     return (
       <div class="basicform">
@@ -54,6 +49,12 @@ class Formbasic extends Component {
             <option value="php">PHP</option>
             <option value="js">JavaScript</option>
           </select>
+
+          {/* {['clientName', 'siteName', 'segmentName'].map(key => (
+            <select key={key}>
+              {this.state.data.map(({ [key]: value }) => <option key={value}>{value}</option>)}
+            </select>
+          ))} */}
         </div>
 
         <div>

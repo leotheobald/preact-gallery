@@ -1,8 +1,10 @@
 import { Component, h } from 'preact';
+
 import styles from './_Slide.scss';
 import classNames from 'classnames/bind';
-
 //const cx = classNames.bind(styles);
+
+/** @jsx h */
 
 const Slide = ({ content, current }) => {
 
@@ -24,4 +26,3 @@ const Slide = ({ content, current }) => {
   }
 
   export default Slide;
-  

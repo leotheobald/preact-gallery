@@ -15,7 +15,12 @@ class App extends Component {
 
   constructor(props) {
     super(props)
-    this.state = { isModalOpen: false }
+    this.state = { 
+      isModalOpen: false,
+      className: '',
+      containerClassName: '',
+      backdropClassName: ''
+    }
   }
 
   // // slideshow state and functionality
@@ -53,7 +58,7 @@ class App extends Component {
         <Formbasic />
         <button onClick={() => this.openModal()}>Open modal</button>
 
-        <Modal isOpen={this.state.isModalOpen} onClose={() => this.closeModal()}>
+        <Modal className={'modal'} containerClassName={'modal-container'} backdropClassName={'backdrop'} isOpen={this.state.isModalOpen} onClose={() => this.closeModal()}>
           <Slideshow content={`http://localhost:8080/src/components/Slideshow/slides.json`} cycleSpeed={2000} />
           <p><button onClick={() => this.closeModal()}>Close</button></p>
         </Modal>
